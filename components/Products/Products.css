@@ -1,0 +1,17 @@
+.product--container {
+  min-width: 100%;
+}
+
+.product--name {
+  text-align: end;
+  font-weight: 300;
+  letter-spacing: 1px;
+  padding: 5px 0px;
+  font-size: 14px;
+}
+
+.product--img {
+  display: block;
+  margin: 0px auto;
+  height: 60vh;
+}

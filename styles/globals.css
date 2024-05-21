@@ -9,6 +9,8 @@ body {
   background-color: #282828;
   color: white;
   font-family: "Jost", sans-serif;
+  height: 100%;
+  overflow: hidden;
 }
 
 main {
@@ -17,11 +19,17 @@ main {
   align-items: flex-start;
 }
 
-h1 {
+h1,
+h2,
+h3 {
   text-transform: uppercase;
   font-weight: 300;
-  letter-spacing: 5px;
+  letter-spacing: 3px;
+}
+
+h1 {
   font-size: 64px;
+  letter-spacing: 5px;
 }
 
 a {
@@ -32,4 +40,25 @@ a {
 .header {
   border-bottom: 1px solid white;
   padding: 20px 0px;
+}
+
+.left {
+  width: 48%;
+  padding: 20px;
+}
+
+.left--scroll {
+  display: flex;
+  flex-direction: row;
+  overflow-x: scroll !important;
+  flex-wrap: nowrap;
+  width: 100%;
+}
+
+.right {
+  border-left: 1px solid white;
+  padding: 20px;
+  width: 50%;
+  height: 100vh;
+  overflow-y: auto;
 }
