@@ -5,7 +5,6 @@ import Right from "@/components/Right/Right";
 export default function Home() {
   return (
     <>
-      <Header />
       <main>
         <Left />
         <Right />

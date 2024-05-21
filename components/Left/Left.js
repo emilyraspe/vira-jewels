@@ -1,4 +1,5 @@
 import Products from "../Products/Products";
+import Header from "../Header/Header";
 
 export default function Left() {
   const products = [
@@ -26,6 +27,7 @@ export default function Left() {
 
   return (
     <div className="left">
+      <Header />
       <h3>Products</h3>
       <div className="left--scroll">
         {products.map((product, index) => {

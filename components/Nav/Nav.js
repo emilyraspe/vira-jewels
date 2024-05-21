@@ -1,10 +1,6 @@
 export default function Nav() {
   return (
     <nav>
-      <a href="#">
-        {" "}
-        <img src="/Icon-weiß.png" alt="Icon Weiß" height={50} />
-      </a>
       <ul className="nav--list">
         <li className="nav--item">
           <a href="#ueber-uns">Über uns</a>
