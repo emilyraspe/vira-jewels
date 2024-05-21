@@ -1,0 +1,11 @@
+.header--items {
+  padding: 0px 20px;
+  text-align: center;
+}
+
+.by {
+  text-transform: uppercase;
+  font-weight: 300;
+  letter-spacing: 3px;
+  padding-top: 10px;
+}
