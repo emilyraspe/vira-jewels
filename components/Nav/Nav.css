@@ -1,0 +1,29 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  right: 0;
+  padding: 0px 20px;
+}
+
+.nav--list {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  list-style: none;
+}
+.nav--button {
+  padding: 5px 10px;
+  border: 1px solid var(--color-white);
+  border-radius: 50px;
+  background: var(--color-black);
+  color: var(--color-white);
+  font-family: "Jost", sans-serif;
+  font-size: 14px;
+}
+
+.nav--button:hover {
+  background: var(--color-white);
+  color: var(--color-black);
+}

@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap");
+
+:root {
+  --color-black: #282828;
+  --color-white: #e6e6e6;
+  --color-highlight: #c3acc5;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: var(--color-black);
+  color: var(--color-white);
+  font-family: "Jost", sans-serif;
+  height: 100vh;
+  overflow: hidden;
+}
+
+main {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+h1,
+h3 {
+  text-transform: uppercase;
+  font-weight: 300;
+  letter-spacing: 3px;
+}
+
+h1 {
+  font-size: 72px;
+  letter-spacing: 5px;
+}
+
+h2 {
+  font-size: 40px;
+  font-weight: 300;
+  letter-spacing: 3px;
+  padding: 5px 0px 25px 0px;
+}
+
+a {
+  text-decoration: none;
+  color: var(--color-white);
+}
+
+.tagline {
+  color: #c3acc5;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+.header {
+  border-bottom: 1px solid var(--color-white);
+  padding: 20px 0px;
+}
+
+.left {
+  width: 50%;
+  height: 100vh;
+}
+
+.left--scroll {
+  display: flex;
+  flex-direction: row;
+  overflow-x: scroll !important;
+  flex-wrap: nowrap;
+  width: 100%;
+  height: 100%;
+}
+
+.right {
+  border-left: 1px solid var(--color-white);
+  width: 50%;
+  height: 100vh;
+  overflow: scroll;
+}
+
+.right--items {
+  padding: 20px;
+}
+
+.content--container {
+  padding-top: 100px;
+}
