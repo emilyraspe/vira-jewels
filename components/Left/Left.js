@@ -41,6 +41,8 @@ export default function Left() {
             );
           })}
         </div>
+        <button className="products--button">←</button>
+        <button className="products--button">→</button>
       </div>
     </div>
   );
