@@ -12,6 +12,7 @@ export default function Nav({
       const element = ref.current;
       const containerElement = containerRef.current;
       const offsetTop = element.offsetTop;
+
       containerElement.scrollTo({
         top: offsetTop,
         behavior: "smooth",

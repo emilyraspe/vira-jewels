@@ -4,14 +4,13 @@ export default function Header() {
   return (
     <div className="header">
       <div className="header--items">
-        {" "}
+        <p className="tagline">By Khushi Kotahwala</p>{" "}
         <a href="#">
           {" "}
-          <img src="/Icon-weiß.png" alt="Icon Weiß" height={50} />
+          <img src="/Icon-weiß.png" alt="Icon Weiß" height={30} />
         </a>{" "}
-        <h1>Vira Jewels</h1>
-        <p className="by">By Khushi Kotahwala</p>
       </div>
+      <h1>Vira Jewels</h1>
     </div>
   );
 }

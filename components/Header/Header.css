@@ -1,10 +1,9 @@
-.header--items {
-  padding: 0px 20px;
+.header {
+  padding: 20px;
 }
 
-.by {
-  text-transform: uppercase;
-  font-weight: 300;
-  letter-spacing: 3px;
-  padding-top: 10px;
+.header--items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
