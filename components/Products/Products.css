@@ -2,6 +2,10 @@
   min-width: 100%;
 }
 
+.product {
+  padding: 20px;
+}
+
 .product--name {
   text-align: end;
   font-weight: 300;

@@ -28,17 +28,19 @@ export default function Left() {
   return (
     <div className="left">
       <Header />
-      <h3>Products</h3>
-      <div className="left--scroll">
-        {products.map((product, index) => {
-          return (
-            <Products
-              key={index}
-              productName={product.name}
-              imgSrc={product.imgSrc}
-            />
-          );
-        })}
+      <div className="product">
+        <h3>Products</h3>
+        <div className="left--scroll">
+          {products.map((product, index) => {
+            return (
+              <Products
+                key={index}
+                productName={product.name}
+                imgSrc={product.imgSrc}
+              />
+            );
+          })}
+        </div>
       </div>
     </div>
   );
