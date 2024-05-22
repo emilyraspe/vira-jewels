@@ -2,7 +2,7 @@ import React, { useRef } from "react";
 
 export default function History({ historyRef }) {
   return (
-    <div ref={historyRef}>
+    <div ref={historyRef} className="content--container">
       <p id="geschichte" className="tagline">
         Unsere Geschichte
       </p>

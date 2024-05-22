@@ -77,7 +77,6 @@ a {
 
 .right {
   border-left: 1px solid var(--color-white);
-
   width: 50%;
   height: 100vh;
   overflow: scroll;
@@ -85,4 +84,8 @@ a {
 
 .right--items {
   padding: 20px;
+}
+
+.content--container {
+  padding-top: 100px;
 }

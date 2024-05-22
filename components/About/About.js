@@ -1,6 +1,6 @@
-export default function About() {
+export default function About({ aboutRef }) {
   return (
-    <>
+    <div ref={aboutRef} className="content--container">
       <p id="ueber-uns" className="tagline">
         Über uns
       </p>
@@ -46,6 +46,6 @@ export default function About() {
         erweckt wird. Treten Sie ein in unsere Welt des Echtschmucks und lassen
         Sie sich von der Magie verführen.
       </p>
-    </>
+    </div>
   );
 }

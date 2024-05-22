@@ -1,11 +1,17 @@
 import { useRef } from "react";
 
-export default function Nav({ historyRef, containerRef }) {
-  const scrollToHistory = () => {
-    if (historyRef.current && containerRef.current) {
-      const historyElement = historyRef.current;
+export default function Nav({
+  aboutRef,
+  historyRef,
+  valuesRef,
+  shopsRef,
+  containerRef,
+}) {
+  const scrollToSection = (ref) => {
+    if (ref.current && containerRef.current) {
+      const element = ref.current;
       const containerElement = containerRef.current;
-      const offsetTop = historyElement.offsetTop;
+      const offsetTop = element.offsetTop;
       containerElement.scrollTo({
         top: offsetTop,
         behavior: "smooth",
@@ -16,14 +22,45 @@ export default function Nav({ historyRef, containerRef }) {
   return (
     <nav>
       <ul className="nav--list">
-        <li className="nav--item">Über uns</li>
         <li className="nav--item">
-          <button onClick={scrollToHistory}>Geschichte</button>
+          {" "}
+          <button
+            onClick={() => scrollToSection(aboutRef)}
+            className="nav--button"
+          >
+            Über uns
+          </button>
         </li>
-        <li className="nav--item">Werte</li>
-        <li className="nav--item">Shops</li>
-        <li className="nav--item">Impressum</li>
-        <li className="nav--item">Datenschutz</li>
+        <li className="nav--item">
+          <button
+            onClick={() => scrollToSection(historyRef)}
+            className="nav--button"
+          >
+            Geschichte
+          </button>
+        </li>
+        <li className="nav--item">
+          <button
+            onClick={() => scrollToSection(valuesRef)}
+            className="nav--button"
+          >
+            Werte
+          </button>
+        </li>
+        <li className="nav--item">
+          <button
+            onClick={() => scrollToSection(shopsRef)}
+            className="nav--button"
+          >
+            Shops
+          </button>
+        </li>
+        <li className="nav--item">
+          <button className="nav--button">Impressum</button>
+        </li>
+        <li className="nav--item">
+          <button className="nav--button">Datenschutz</button>
+        </li>
       </ul>
     </nav>
   );
