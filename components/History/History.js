@@ -1,6 +1,8 @@
-export default function History() {
+import React, { useRef } from "react";
+
+export default function History({ historyRef }) {
   return (
-    <>
+    <div ref={historyRef}>
       <p id="geschichte" className="tagline">
         Unsere Geschichte
       </p>
@@ -36,6 +38,6 @@ export default function History() {
         bedeutendsten Schmuckdynastien entwickelt, deren Erbe und Handwerkskunst
         nun in den zeitlosen Kreationen von Vira Jewels lebendig werden.
       </p>
-    </>
+    </div>
   );
 }
