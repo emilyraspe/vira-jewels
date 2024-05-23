@@ -3,6 +3,7 @@
 :root {
   --color-black: #282828;
   --color-white: #e6e6e6;
+  --color-light-grey: #c6c5c5;
   --color-highlight: #c3acc5;
 }
 
@@ -25,23 +26,28 @@ main {
   align-items: flex-start;
 }
 
-h1,
-h3 {
+h1 {
   text-transform: uppercase;
   font-weight: 300;
   letter-spacing: 3px;
-}
-
-h1 {
-  font-size: 72px;
-  letter-spacing: 5px;
+  font-size: 76px;
 }
 
 h2 {
-  font-size: 40px;
+  font-size: 48px;
   font-weight: 300;
   letter-spacing: 3px;
   padding: 5px 0px 25px 0px;
+  line-height: 130%;
+}
+
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 400;
+  letter-spacing: 3px;
+  text-transform: uppercase;
 }
 
 a {
@@ -49,9 +55,18 @@ a {
   color: var(--color-white);
 }
 
+p {
+  color: var(--color-light-grey);
+  font-size: 16px;
+}
+
+.copy {
+  text-indent: 3em;
+}
+
 .tagline {
   color: #c3acc5;
-  font-size: 14px;
+  font-size: 16px;
   text-transform: uppercase;
   letter-spacing: 3px;
 }

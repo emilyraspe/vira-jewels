@@ -5,7 +5,7 @@ export default function About({ aboutRef }) {
         Über uns
       </p>
       <h2>Tauchen Sie ein in die faszinierende Welt von Vira Jewels</h2>
-      <p>
+      <p className="copy">
         Tauchen Sie ein in die faszinierende Welt von Vira Jewels, wo
         authentische Schönheit auf zeitlose Eleganz trifft. Wir sind stolz
         darauf, Ihnen hochwertigen Edelsteinschmuck anzubieten, der mit
@@ -17,12 +17,11 @@ export default function About({ aboutRef }) {
         Generationen. In Bremen geboren und aufgewachsen und mit einem
         Bachelor-Abschluss in Wirtschaft und Psychologie aus London verbindet
         Khushi geschickt die künstlerische Seite des Schmuckhandwerks mit einem
-        tiefen Verständnis für die Bedeutung hinter jedem wertvollen Stück.
-        <br />
-        Vira Jewels ist das Ergebnis einer langen Familientradition, die bis ins
-        Jahr 1727 zurückreicht. Es ist die Verkörperung von Khushis moderner
-        Vision, Echtschmuck ohne Kompromisse anzubieten. Unsere Mission ist es,
-        Ihnen Schmuckstücke zu präsentieren, die ausschließlich aus echten
+        tiefen Verständnis für die Bedeutung hinter jedem wertvollen Stück. Vira
+        Jewels ist das Ergebnis einer langen Familientradition, die bis ins Jahr
+        1727 zurückreicht. Es ist die Verkörperung von Khushis moderner Vision,
+        Echtschmuck ohne Kompromisse anzubieten. Unsere Mission ist es, Ihnen
+        Schmuckstücke zu präsentieren, die ausschließlich aus echten
         Edelsteinen, Edelmetallen und mit echter Handarbeit gefertigt werden.
         "Alles Echt - ohne Ausnahme." Dies ist unser Leitspruch und das
         Versprechen, das wir Ihnen geben. Bei Vira Jewels können Sie sicher
