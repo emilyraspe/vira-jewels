@@ -21,6 +21,8 @@ nav {
   color: var(--color-white);
   font-family: "Jost", sans-serif;
   font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
 }
 
 .nav--button:hover {
