@@ -39,6 +39,7 @@ export default function Left() {
   }, []);
 
   const handleHorizantalScroll = (element, speed, distance, step) => {
+    console.log(productWidth);
     let scrollAmount = 0;
     const slideTimer = setInterval(() => {
       element.scrollLeft += step;
