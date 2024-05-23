@@ -34,12 +34,12 @@ h3 {
 }
 
 h1 {
-  font-size: 72px;
+  font-size: 76px;
   letter-spacing: 5px;
 }
 
 h2 {
-  font-size: 40px;
+  font-size: 48px;
   font-weight: 300;
   letter-spacing: 3px;
   padding: 5px 0px 25px 0px;
@@ -53,6 +53,7 @@ a {
 
 p {
   color: var(--color-light-grey);
+  font-size: 16px;
 }
 
 .copy {
@@ -61,7 +62,7 @@ p {
 
 .tagline {
   color: #c3acc5;
-  font-size: 14px;
+  font-size: 16px;
   text-transform: uppercase;
   letter-spacing: 3px;
 }

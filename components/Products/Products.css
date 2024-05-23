@@ -12,7 +12,7 @@
   font-weight: 400;
   letter-spacing: 1px;
   padding: 5px 0px;
-  font-size: 14px;
+  font-size: 16px;
 }
 
 .product--img {
@@ -22,14 +22,13 @@
 }
 
 .products--button {
-  padding: 5px;
   margin: 20px 5px 0px 5px;
-  width: 30px;
-  height: 30px;
+  width: 35px;
+  height: 35px;
   border: 1px solid var(--color-white);
   border-radius: 50px;
   background: var(--color-black);
   color: var(--color-white);
   font-family: "Jost", sans-serif;
-  font-size: 14px;
+  font-size: 16px;
 }
