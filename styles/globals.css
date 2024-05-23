@@ -3,6 +3,7 @@
 :root {
   --color-black: #282828;
   --color-white: #e6e6e6;
+  --color-light-grey: #c6c5c5;
   --color-highlight: #c3acc5;
 }
 
@@ -48,6 +49,14 @@ h2 {
 a {
   text-decoration: none;
   color: var(--color-white);
+}
+
+p {
+  color: var(--color-light-grey);
+}
+
+.copy {
+  text-indent: 3em;
 }
 
 .tagline {

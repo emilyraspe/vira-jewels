@@ -7,7 +7,7 @@ export default function Values({ valuesRef }) {
         Unsere Werte
       </p>
       <h2>Vira Jewels: Ein Schmuckstück, das Ihre Geschichte erzählt</h2>
-      <p>
+      <p className="copy">
         Jedes Schmuckstück von Vira Jewels ist ein Versprechen. Ein Versprechen
         von Khushi an Sie. Wenn Sie Vira Jewels tragen, tragen Sie nicht nur ein
         Schmuckstück, sondern auch die Liebe, Sorgfalt und das Handwerk, das in

@@ -7,7 +7,7 @@ export default function History({ historyRef }) {
         Unsere Geschichte
       </p>
       <h2>Die Geschichte von Vira Jewels</h2>
-      <p>
+      <p className="copy">
         Die Familie Kotahwala ist untrennbar mit der Geschichte von Jaipur und
         der Schmuckherstellung seit der Gründung im Jahre 1727 verbunden.
         Ursprünglich aus Kota in Indien stammend, wurde die Familie von Maharaja
