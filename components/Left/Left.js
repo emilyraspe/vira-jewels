@@ -1,5 +1,6 @@
 import Products from "../Products/Products";
 import Header from "../Header/Header";
+import { useRef, useState, useEffect } from "react";
 
 export default function Left() {
   const products = [
@@ -25,22 +26,71 @@ export default function Left() {
     },
   ];
 
+  const elementRef = useRef(null);
+  const productRef = useRef(null);
+
+  const [productWidth, setProductWidth] = useState(0);
+
+  useEffect(() => {
+    if (productRef.current) {
+      setProductWidth(productRef.current.offsetWidth);
+    }
+  }, []);
+
+  const handleHorizantalScroll = (element, speed, distance, step) => {
+    console.log(productWidth);
+    let scrollAmount = 0;
+    const slideTimer = setInterval(() => {
+      element.scrollLeft += step;
+      scrollAmount += Math.abs(step);
+      if (scrollAmount >= distance) {
+        clearInterval(slideTimer);
+      }
+    }, speed);
+  };
+
   return (
     <div className="left">
       <Header />
       <div className="product">
         <h3>Products</h3>
-        <div className="left--scroll">
+        <div className="left--scroll" ref={elementRef}>
           {products.map((product, index) => {
             return (
               <Products
-                key={index}
                 productName={product.name}
                 imgSrc={product.imgSrc}
+                productRef={productRef}
               />
             );
           })}
         </div>
+        <button
+          className="products--button"
+          onClick={() => {
+            handleHorizantalScroll(
+              elementRef.current,
+              25,
+              productWidth,
+              -productWidth
+            );
+          }}
+        >
+          ←
+        </button>
+        <button
+          className="products--button"
+          onClick={() => {
+            handleHorizantalScroll(
+              elementRef.current,
+              25,
+              productWidth,
+              productWidth
+            );
+          }}
+        >
+          →
+        </button>
       </div>
     </div>
   );
