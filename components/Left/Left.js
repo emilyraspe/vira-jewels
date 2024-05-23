@@ -29,7 +29,6 @@ export default function Left() {
   const elementRef = useRef(null);
   const productRef = useRef(null);
 
-  const [arrowDisable, setArrowDisable] = useState(true);
   const [productWidth, setProductWidth] = useState(0);
 
   useEffect(() => {
@@ -46,11 +45,6 @@ export default function Left() {
       scrollAmount += Math.abs(step);
       if (scrollAmount >= distance) {
         clearInterval(slideTimer);
-      }
-      if (element.scrollLeft === 0) {
-        setArrowDisable(true);
-      } else {
-        setArrowDisable(false);
       }
     }, speed);
   };
@@ -81,7 +75,6 @@ export default function Left() {
               -productWidth
             );
           }}
-          disabled={arrowDisable}
         >
           ←
         </button>
