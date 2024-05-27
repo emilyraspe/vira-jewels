@@ -17,8 +17,14 @@
 
 .shops--item:hover button {
   display: inline-block;
+
   margin: 0px;
 }
+.shops--item:hover button:hover {
+  background: var(--color-white);
+  color: var(--color-black);
+}
+
 .shops--item:hover {
   padding: 35px 0px;
 }
