@@ -19,7 +19,7 @@ export default function Values({ valuesRef }) {
         Jewels. Entdecken Sie Schmuck, der nicht nur glänzt, sondern auch
         Geschichten erzählt. Ihre Geschichte.
       </p>
-      <h3>Unsere Top 3 Werte</h3>
+      <h3 className="werte--heading">Unsere Top 3 Werte</h3>
 
       <div className="werte--container">
         <p>
