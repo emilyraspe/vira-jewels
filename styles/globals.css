@@ -60,6 +60,18 @@ p {
   font-size: 16px;
 }
 
+button {
+  padding: 5px 10px;
+  border: 1px solid var(--color-white);
+  border-radius: 50px;
+  background: var(--color-black);
+  color: var(--color-white);
+  font-family: "Jost", sans-serif;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
 .copy {
   text-indent: 3em;
 }
