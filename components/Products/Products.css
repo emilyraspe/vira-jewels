@@ -31,4 +31,10 @@
   color: var(--color-white);
   font-family: "Jost", sans-serif;
   font-size: 16px;
+  transition: 0.3s ease-in-out;
+}
+
+.products--button:hover {
+  background: var(--color-white);
+  color: var(--color-black);
 }

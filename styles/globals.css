@@ -60,6 +60,23 @@ p {
   font-size: 16px;
 }
 
+button {
+  padding: 5px 10px;
+  border: 1px solid var(--color-white);
+  border-radius: 50px;
+  background: var(--color-black);
+  color: var(--color-white);
+  font-family: "Jost", sans-serif;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: 0.3s ease-in-out;
+}
+.button:hover {
+  background: var(--color-white);
+  color: var(--color-black);
+}
+
 .copy {
   text-indent: 3em;
 }
@@ -104,4 +121,9 @@ p {
 
 .content--container {
   padding-top: 100px;
+}
+
+.werte--container {
+  padding: 30px 0px;
+  border-bottom: 1px solid var(--color-light-grey);
 }

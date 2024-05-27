@@ -53,7 +53,7 @@ export default function Left() {
     <div className="left">
       <Header />
       <div className="product">
-        <h3>Products</h3>
+        <h3>Produkte</h3>
         <div className="left--scroll" ref={elementRef}>
           {products.map((product, index) => {
             return (

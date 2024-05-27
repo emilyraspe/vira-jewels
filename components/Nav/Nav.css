@@ -23,6 +23,7 @@ nav {
   font-size: 16px;
   text-transform: uppercase;
   letter-spacing: 1px;
+  transition: 0.3s ease-in-out;
 }
 
 .nav--button:hover {
