@@ -1,5 +1,7 @@
 # Vira Jewels
 
+![Screen](public/screen.png)
+
 ## Overview
 
 This project is a simple yet elegant website created for a jewelry brand to showcase their core values and company history. Built with JavaScript, React, Next.js, and plain CSS, the primary goal of this project was to practice and enhance my CSS skills.
