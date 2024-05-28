@@ -151,7 +151,29 @@ button {
   }
 
   nav {
-    position: absolute !important;
+    position: fixed !important;
+    border-top: 1px solid var(--color-white);
+    padding: 0px !important;
+    width: 100%;
+    bottom: 0;
+    background: var(--color-black);
+  }
+
+  .right--items {
+    padding: 0px;
+  }
+
+  .content--container {
+    padding: 20px;
+  }
+
+  nav ul {
+    flex-wrap: wrap;
+    padding: 20px;
+  }
+
+  .nav--button {
+    font-size: 12px !important;
   }
 
   h1 {
