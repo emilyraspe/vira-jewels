@@ -30,3 +30,7 @@ nav {
   background: var(--color-white);
   color: var(--color-black);
 }
+
+.nav--button a:hover {
+  color: var(--color-black);
+}

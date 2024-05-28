@@ -5,7 +5,7 @@ export default function Header() {
     <div className="header">
       <div className="header--items">
         <p className="tagline">By Khushi Kotahwala</p>{" "}
-        <a href="#">
+        <a href="/">
           {" "}
           <img src="/Icon-weiß.png" alt="Icon Weiß" height={30} />
         </a>{" "}

@@ -57,10 +57,14 @@ export default function Nav({
           </button>
         </li>
         <li className="nav--item">
-          <button className="nav--button">Impressum</button>
+          <button className="nav--button">
+            <a href="/impressum">Impressum</a>
+          </button>
         </li>
         <li className="nav--item">
-          <button className="nav--button">Datenschutz</button>
+          <button className="nav--button">
+            <a href="/datenschutz">Datenschutz</a>
+          </button>
         </li>
       </ul>
     </nav>
